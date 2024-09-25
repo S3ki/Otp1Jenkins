@@ -1,4 +1,6 @@
+package com.example;
 
+import com.example.DiceRoll;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
