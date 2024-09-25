@@ -3,12 +3,11 @@ pipeline {
     tools {
         maven 'Maven3'  // Ensure Maven is installed
         jdk 'JD'     // Ensure JDK is installed
-        git 'git'    
     }
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/S3ki/Otp1Jenkins.git'
+                git 'https://github.com/your-username/your-repo.git'
             }
         }
         stage('Build') {
