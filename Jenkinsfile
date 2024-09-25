@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/S3ki/Otp1Jenkins.git'
+                git 'https://github.com/S3ki/Otp1Jenkins.git'
             }
         }
         stage('Build') {
